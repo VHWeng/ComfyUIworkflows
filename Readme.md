@@ -85,6 +85,3 @@ To use these workflows:
 4.  **Drag and drop** the desired `.json` file (`JuggernautXL.json`, `SDXLturbo_Quick2.json`, etc.) directly onto the ComfyUI canvas.
 5.  **Press "Queue Prompt"** to generate the image.
 
----
-
-Would you like me to add a section about how to download the specific model checkpoints, or perhaps expand on the suggested structure for the GitHub repository?
