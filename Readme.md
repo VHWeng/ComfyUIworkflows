@@ -60,7 +60,21 @@ This workflow is based on the Qwen Image Edit Plus model and is structured for e
 * **Steps:** 4
 * **CFG:** 1
 
-### 5. Z-Image-Turbo
+### 5. Flux2 Klein Distilled
+
+This workflow uses the Flux2 Klein distilled model, a compact yet powerful variant optimized for efficient image generation.
+
+* **File:** `flux2_klein_distilled.json`
+* **UNET Model:** `flux-2-klein-4b.safetensors`
+* **CLIP Model:** `qwen_3_4b.safetensors`
+* **VAE Model:** `flux2-vae.safetensors`
+* **Sampler:** `euler`
+* **Scheduler:** `simple`
+* **Steps:** 4
+* **CFG:** 1
+* **Guidance:** 3.5
+
+### 6. Z-Image-Turbo
 
 This workflow leverages the Z-Image-Turbo model architecture for rapid text-to-image synthesis.
 
